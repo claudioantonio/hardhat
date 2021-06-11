@@ -8,7 +8,7 @@ import { useFixture } from "./helpers";
 const hardhatBinary = path.join("node_modules", ".bin", "hardhat");
 
 describe("e2e tests", function () {
-  describe("basic-proejct", function () {
+  describe("basic-project", function () {
     useFixture("basic-project");
 
     it("should compile", function () {
